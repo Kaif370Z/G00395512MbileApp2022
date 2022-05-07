@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title><ion-button color="danger" [routerLink]="['/home']" routerDirection=backward>Home</ion-button></ion-title>
+    <img src="https://cdn.akamai.steamstatic.com/steam/apps/1710580/header.jpg?t=1650532402" width="" >
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <br>
+  <ion-button color="danger" [routerLink]="['/page1']" routerDirection=forward>Riders</ion-button>
+  <br>
+  <ion-button color="danger" [routerLink]="['/page2']" routerDirection=forward>Social Media</ion-button>
+  <br>
+  <ion-button color="danger" [routerLink]="['/page3']" routerDirection=forward>My Rider Profile</ion-button>
+  <br>
+  <br>
+  <!--Ionic/Cordova Plugins for Calender and buildinfo are utilized here.-->
+  <h1>Additional Services</h1>
+  <ion-button (click)="addCalender()">Add To your Calender</ion-button>
+  <br>
+  <ion-button (click)="displayBuildInfo()">Developer Build Info</ion-button>
+</ion-content>
