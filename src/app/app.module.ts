@@ -8,9 +8,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 //import {IonicStorageModule} from '@ionic/storage';//Allows for use of ionic storage for data persistence
 
-//Had to make sure to include calander/buildinfo in the providers
-//Also had to make sure to include the HTTPClientModule and IonicStorageModule in the imports 
-//This allows for ionic to see that we can utilize them
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
